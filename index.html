@@ -8,48 +8,37 @@
     <link href='http://fonts.googleapis.com/css?family=Ubuntu&subset=cyrillic,latin' rel='stylesheet' type='text/css' />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <script src="/script.js"></script>
 </head>
-<body>
-    <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    <a class="nav-link" href="#Grow">Growing</a>
-                    <a class="nav-link" href="#Vocabulary">Vocabulary</a>
-                </div>
-            </div>
-        </div>
-    </nav>
-
-    <div class="container">
+<body onkeypress="TestKeyPress()">
+    <div class="container" id="0">
         <br>
         <h1>Creating a resistant bacteria and putting it to the test</h1>
-
+        <div id="1"></div>
         <h2>The Goal:</h2>
         <p>The goal is to create a bacteria that is resistant to antibiotics</p>
 
         <h2>How:</h2>
         <p>The bacterial resistance is going to be developed with what I like to call the Princess Bride Method.</p>
 
+        <div id="2"></div>
         <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/rMz7JBRbmNo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
         <br>The antibiotic is going to be introduced to the bacteria in increments to allow the bacteria to gain a resistance to the antibiotic<br>
+        <br>
+        <div id="3"></div>
         <h2>Gathering the bacteria</h2>
         <video src="/Videos/20230512_091107.mp4" width="320" height="240" controls></video>
         <p>The bacteria in this video is taken from keyboards and a door handle. The bacteria is swabbed into a petri dish made of agar.</p>
 
-        <h2 id="growing">Growing the bacteria</h2>
+        <div id="4"></div>
+        <h2 id="Grow">Growing the bacteria</h2>
 
         <p>After growing the bacteria, I separated the yellow bacteria because I believed it was the same bacteria.</p>
         <img src="/Images/20230522_085705.jpg" style="max-height: 100vh" alt="">
 
         <br>
-
+        <div id="5"></div>
         <p>I was able to separate the mold from the bacteria. I used "AMOX SK 1" as the petri dish of choice.</p>
         <br> <p>"AMOX" -- Amoxicillin. <br> "SK" -- Sol's keyboard. <br> "1" -- First petri dish with the bacteria separated out.</p>
 
@@ -57,7 +46,7 @@
 
         <p>Later in the process of growing and harvesting the bacteria, I introduced it to multiple antibiotics at once to vary its resistant abilities.</p>
         <video src="/Videos/20230525_125755.mp4" width="320" height="240" controls></video>
-
+        <div id="6"></div>
         <br>
 
         <p>The control petri dish had mold growing on it.</p>
@@ -66,24 +55,28 @@
 
         <p>After roughly 24 hours, the bacteria was able to overcome the antibiotics. You can see it by the ring around the antibiotic and how the ring was filled in by bacteria.</p>
         <img src="/Images/20230526_091500.jpg" alt="" width="200vw" style="transform: rotate(-90);">
-
+        <div id="7"></div>
         <br>
 
-        <p>During this project, I figured out that to kill a bacteria, you have to kill all of it; otherwise, it will grow back.</p>
-
+        <p>During this project, I figured out that to kill a bacteria, you have to kill all of it; otherwise, it will grow back from the remaining bacteria.</p>
+        <br> <p>There is evedence of this in the following image. The rings around the antibiotics are where the bacteria were killed and grew back once it gained resistance to the antibiotic.</p>
+        <br> <img src="/Images/Screenshot_20230605_183211.png" alt="">
         <p>The best method I found to kill bacteria is rubbing alcohol. It's what I used to clean my tools, and it is good enough to clean surfaces and hands.</p>
-
+        <div id="8"></div>
         <img src="/Images/20230530_092600.jpg" alt="" width="200vw" style="transform: rotate(-90);">
 
         <br>
 
-        <p>A sample of bacteria mixed with sugar and water turned red over the span of a couple of days. I replicated it on a larger scale to the best of my abilities. I did not take measurements.</p>
+        <p>A sample of bacteria mixed with sugar and water turned red over the span of a couple of days. I replicated it on a larger scale to the best of my abilities. I did not take measurements for the original sample. I was more curius if bacteria would servive in sugar water.
+            Note for next time: Take measurements.
+        </p>
         <p>The sugar does have contaminants because it was being used to make rocket fuel and was left out in the open for months.</p>
-
+        <div id="9"></div>
         <br> <img src="/Images/20230530_092038.jpg" alt="" width="200vw" style="transform: rotate(-90);">
-
+        <div id="10"></div>
         <p>I transferred over the bacteria from the smaller vial to the new larger one to help stem the bacteria growth.</p>
-
+        <br> <img src="/Images/20230605_085512.jpg" alt="" width="200gvccvw">
+        <div id="11"></div>
         <h2>Vocabulary</h2>
         <div class="VocabBox" id="Vocabulary">
             <p>Penicillin - The first modern antibacterial</p>
@@ -96,6 +89,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-TnBkVvEoXyBg58qbSC5kkJHv9fYibYCRpxrQTwofyy2kswJzv/mXGQzNZ89I4mrV" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-TnBkVvEoXyBg58qbSC5kkJHv9fYibYCRpxrQTwofyy2kswJzv/mXGQzNZ89I4mrV" crossorigin="anonymous"></script>
+    
 </body>
 </html>
  
