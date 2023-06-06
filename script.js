@@ -1,5 +1,5 @@
 var _SlideNumber = 0;
-var _MaxSlides = 11;
+var _MaxSlides = 12;
 function TestKeyPress(){
     console.log("KeyPressed");
     _SlideNumber += 1;
